@@ -10,20 +10,19 @@
 }
 .wrapper{
     background: blue;
+    flex-direction: row-reverse;
+    display: flex;
     
 }
 .menu {
     background: green;
     width: 30%;
-    float: left;
     
 }
 .content{
     background: aqua;
     width: 70%;
-    float: left;
 }
 .footer{
     background: pink;
-    clear: both;
 }
